@@ -18,6 +18,7 @@ class Copy{
         }
         System.out.println("Array 1: "+(Arrays.toString(arr)));
         System.out.println("Array 2: "+(Arrays.toString(copy)));
+        System.out.println("Array 1 copied successfully to Array 2!");
 
 
 
