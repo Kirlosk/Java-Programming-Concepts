@@ -1,5 +1,4 @@
-import java.util.*;
-
+//Kirlosk
 class Array_odd{
     public static void main(String []args){
         int arr[]={23,45,67,89,23,43,12,45,87,34,90,43};
