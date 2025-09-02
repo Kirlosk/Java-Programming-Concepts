@@ -21,6 +21,16 @@ class String_3{
         
         
         System.out.println("Is the string palindrome: "+palindrome.equals(name));
+        name=name.toLowerCase();
+        Character palindrome[]=new Character[size];
+        for(int i=0;i<size;i++){
+            palindrome[i]= name.charAt(size-1-i);
+        }
+        
+        
+        System.out.println("Is the string palindrome: "+palindrome.equals(name));
+        name= name.replace('a', 'o');
+        System.out.println("After replacing 'a' with 'o',we get: "+name );
         
 
         
