@@ -13,6 +13,14 @@ class String_3{
         System.out.println("The length of the string is: "+size);
         System.out.println("The first letter of the string is: "+name.charAt(0)+" and last word is "+name.charAt(size-1));
         
+        name=name.toLowerCase();
+        Character palindrome[]=new Character[size];
+        for(int i=0;i<size;i++){
+            palindrome[i]= name.charAt(size-1-i);
+        }
+        
+        
+        System.out.println("Is the string palindrome: "+palindrome.equals(name));
         
 
         
