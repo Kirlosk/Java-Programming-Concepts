@@ -11,6 +11,9 @@ class String_3{
 
 
         System.out.println("The length of the string is: "+size);
+        System.out.println("The first letter of the string is: "+name.charAt(0)+" and last word is "+name.charAt(size-1));
+        
+        
 
         
     }
