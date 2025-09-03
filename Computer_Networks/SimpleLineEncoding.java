@@ -10,6 +10,16 @@ import java.util.Scanner;
             }
         }
     }
+     static void polarNZD(int[] bits){
+        for(int i =0; i<bits.length;i++){
+            if(bits[i]==1){
+                System.out.println("+1");
+            }
+            else{
+                System.out.println("-1");
+            }
+        }
+    }
     
     // Main method to test the encoding methods
     public static void main(String[] args) {
@@ -36,7 +46,7 @@ import java.util.Scanner;
                     unipolarNZD(bits);
                     break;
                 case 2 :
-                    //polarNZD(bits);
+                    polarNZD(bits);
                     break;
                 case 3 :
                      //manchester(bits);
