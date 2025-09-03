@@ -21,11 +21,6 @@ class String_3{
         
         
         System.out.println("Is the string palindrome: "+palindrome.equals(name));
-        name=name.toLowerCase();
-        Character palindrome[]=new Character[size];
-        for(int i=0;i<size;i++){
-            palindrome[i]= name.charAt(size-1-i);
-        }
         
         
         System.out.println("Is the string palindrome: "+palindrome.equals(name));
@@ -36,3 +31,4 @@ class String_3{
         
     }
 }
+//Kirlosk
