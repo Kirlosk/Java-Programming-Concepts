@@ -20,6 +20,16 @@ import java.util.Scanner;
             }
         }
     }
+    static void manchester(int[] bits){
+        for(int i=0; i<bits.length;i++){
+            if(bits[i]==1){
+                System.out.println("+1 -1");
+            }
+            else{
+                System.out.println("-1 +1");
+            }
+        }
+    }
     
     // Main method to test the encoding methods
     public static void main(String[] args) {
@@ -49,7 +59,7 @@ import java.util.Scanner;
                     polarNZD(bits);
                     break;
                 case 3 :
-                     //manchester(bits);
+                     manchester(bits);
                      break;
                 case 4 :
                      //differentialManchester(bits);
