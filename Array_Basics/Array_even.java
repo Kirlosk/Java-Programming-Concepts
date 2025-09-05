@@ -11,4 +11,3 @@ class Array_even{
         }
     }
 }
-//Kirlosk//
