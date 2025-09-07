@@ -16,4 +16,3 @@ class String_1{
         
     }
 }
-//Kirlosk
