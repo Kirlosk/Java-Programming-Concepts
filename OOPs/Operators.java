@@ -27,6 +27,19 @@ class Operators{
         System.out.println("");
         System.out.println("------------------------------------");
         System.out.println("");
+
+
+        System.out.println("Or operator-->");
+        int c =12;
+        System.out.println("a: "+c);
+        int d=10;
+        System.out.println("b: "+d);
+        int result_2 =a|b;
+        System.out.println("a | b: "+ result_2);
+
+        System.out.println("");
+        System.out.println("------------------------------------");
+        System.out.println("");
         
     }
 }
