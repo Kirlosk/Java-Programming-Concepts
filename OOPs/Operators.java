@@ -10,5 +10,12 @@ class Operators{
         System.out.println("Pre-increment: "+(++x));
         System.out.println("Post-decrement: "+(x--));
         System.out.println("Pre decrement: "+(--x));
+
+        System.out.println("------------------------------------");
+
+        int a =12;
+        int b=10;
+        int result =a&b;
+        System.out.println("a & b: "+ result);
     }
 }
