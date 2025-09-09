@@ -40,6 +40,31 @@ class Operators{
         System.out.println("");
         System.out.println("------------------------------------");
         System.out.println("");
+
+        System.out.println("Xor operator-->");
+        int e =12;
+        System.out.println("a: "+e);
+        int f=10;
+        System.out.println("b: "+f);
+        int result_3 =e^f;
+        System.out.println("a ^ b: "+ result_3);
+
+        System.out.println("");
+        System.out.println("------------------------------------");
+        System.out.println("");
+
+        System.out.println("Complement-->");
+        int g =12;
+        System.out.println("a: "+c);
+        
+        int result_4 =~a;
+        System.out.println("~a: "+ result_4);
+
+        System.out.println("");
+        System.out.println("------------------------------------");
+        System.out.println("");
+
+
         
     }
 }
