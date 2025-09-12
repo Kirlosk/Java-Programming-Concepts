@@ -6,6 +6,17 @@ import java.util.Scanner;
             dist[i] = Integer.MAX_VALUE;
         }
         dist[src] = 0;
+        for (int i = 1; i < V; i++) {
+            for (int j = 0; j < E; j++) {
+                int u = graph[j][0];
+                int v = graph[j][1];
+                int weight = graph[j][2];
+                if (dist[u] != Integer.MAX_VALUE && dist[u] + weight < dist[v]) {
+                    dist[v] = dist[u] + weight;
+                }
+            }
+        }
+
         
         
         printSolution(dist, V);
