@@ -2,6 +2,11 @@ import java.util.Scanner;
  public class BellmanFord{
     public static void bellmanFord(int[][] graph, int V, int E, int src) {
         int[] dist = new int[V];
+        for (int i = 0; i < V; i++) {
+            dist[i] = Integer.MAX_VALUE;
+        }
+        dist[src] = 0;
+        
         
         printSolution(dist, V);
     }
