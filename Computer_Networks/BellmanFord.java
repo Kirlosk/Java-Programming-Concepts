@@ -16,6 +16,15 @@ import java.util.Scanner;
                 }
             }
         }
+        for (int j = 0; j < E; j++) {
+            int u = graph[j][0];
+            int v = graph[j][1];
+            int weight = graph[j][2];
+            if (dist[u] != Integer.MAX_VALUE && dist[u] + weight < dist[v]) {
+                System.out.println("Graph contains negative weight cycle");
+                return;
+            }
+        }
 
         
         
